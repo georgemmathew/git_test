@@ -1,0 +1,8 @@
+from Centos
+run yum - y update
+run yum -y install httpd git
+COPY index.html /var/www/html/
+VOLUME /var/www/html
+VOLUME /var/log
+CMD
+
